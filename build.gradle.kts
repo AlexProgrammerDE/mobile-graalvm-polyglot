@@ -27,3 +27,10 @@ application {
     mainModule = "net.pistonmaster.nativepolyglot"
     mainClass = "net.pistonmaster.nativepolyglot.Main"
 }
+
+gluonfx {
+    target = "host"
+    if (project.hasProperty("target")) {
+        target = project.property("target").toString()
+    }
+}
