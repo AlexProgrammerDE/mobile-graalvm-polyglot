@@ -1,0 +1,21 @@
+[
+{
+  "type":"java.lang.Boolean",
+  "methods":[{"name":"getBoolean","parameterTypes":["java.lang.String"] }]
+},
+{
+  "type":"java.lang.Boolean",
+  "methods":[{"name":"getBoolean","parameterTypes":["java.lang.String"] }]
+},
+{
+  "type":"java.lang.Class",
+  "methods":[{"name":"getClassLoader","parameterTypes":[] }]
+},
+{
+  "type":"java.lang.ClassLoader",
+  "methods":[{"name":"loadClass","parameterTypes":["java.lang.String"] }]
+},
+{
+  "type":"jdk.internal.loader.ClassLoaders$AppClassLoader"
+}
+]
