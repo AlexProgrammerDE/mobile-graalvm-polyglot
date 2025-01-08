@@ -42,6 +42,10 @@
   "fields":[{"name":"ACCESS"}]
 },
 {
+  "type":"sun.security.provider.NativePRNG",
+  "methods":[{"name":"<init>","parameterTypes":["java.security.SecureRandomParameters"] }]
+},
+{
   "type":"sun.security.provider.SHA",
   "methods":[{"name":"<init>","parameterTypes":[] }]
 },

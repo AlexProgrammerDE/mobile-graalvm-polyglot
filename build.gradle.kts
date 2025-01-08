@@ -33,4 +33,22 @@ gluonfx {
     if (project.hasProperty("target")) {
         target = project.property("target").toString()
     }
+    compilerArgs.addAll(listOf(
+        "-H:+UnlockExperimentalVMOptions",
+        "--language:nfi",
+        "-Dtruffle.TruffleRuntime=com.oracle.truffle.api.impl.DefaultTruffleRuntime",
+        "-H:+AllowIncompleteClasspath"
+    ))
+}
+
+tasks {
+    distZip {
+        onlyIf { false }
+    }
+    distTar {
+        onlyIf { false }
+    }
+    startScripts {
+        onlyIf { false }
+    }
 }
